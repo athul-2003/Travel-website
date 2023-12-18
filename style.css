@@ -336,9 +336,14 @@ section {
         font-size: 30px;
     }
     .about-text p{
-        width: 300px;
+        width: 500px;
     }
 }
+@media (max-width: 768px){
+.about-text p {
+    width: 250px;}
+}
+
 .about-text a {
     background-color: #fff;
     border: 2px solid #014B85;
