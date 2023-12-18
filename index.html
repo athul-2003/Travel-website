@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharat Sanchar</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="./images/main-logo.png">
+    <script src="https://kit.fontawesome.com/c0a7a61bc0.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    
+
+<!--===========Nav Bar=================-->
+<header>
+    <div class="main_menu">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <div class="logo"><a class="navbar-brand" href="#home"><img src="./images/main-logo.png" class="img-fluid main-logo" ></a></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-us">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#packages">Package</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                  </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+<!--===============Banner================-->
+<section class="banner" id="home">
+    <div class="home-section text-center">
+  
+        <div class="container">
+                    <div class="row">
+                        <div class="centerbox col-12" style="margin-top: 250px;">
+                            <div class="banner-heading col-12">
+                            <h1>Explore Enchanting Journeys!</h1>
+                        </div>
+                        <div class="banner-form banner-text-item  col-12">
+                            <form class="form row">
+                                <div class="col-md-6 col-12 option-box">
+                                    <input type="text" list="mylist" placeholder="Where would you like to go?">
+                                    <datalist id="mylist">
+                                        <option>The Valley of Flowers</option>
+                                        <option>Krang Suri Falls</option>
+                                        <option>Coorg</option>
+                                        <option>Tawang</option>
+                                        <option>Munnar</option>
+                                        <option>Gulmarg</option>
+                                    </datalist>
+                                    <input type="date" class="date">
+                                    <a href="#" class="book">book</a>
+                                </div>
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+    </div>
+</section>
+
+
+<!--===========About Us===============-->
+<section class="about" id="about-us">
+    <div class="container pd-2">
+        <div class="row">
+            <div class="col-md-6 col-12 about-left">
+                <div class="about-img">
+                    <img class="img-fluid" src="./images/about_us.jpg">
+                </div>
+            </div>
+            <div class="col-md-6 col-12 about-right about-text">
+                <small>ABOUT OUR COMPANY</small>
+                <h2>Welcome to <span  class="comp-name">Bharat Sanchar</span></h2>
+                <p class="text-wrap">At Bharat Sanchar, we believe that travel is not just about visiting destinations; 
+                    it's about creating lasting memories and forging unforgettable experiences. 
+                    Our journey began with a passion for showcasing the rich tapestry of India, its diverse cultures, and the warmth of its people.</p>
+
+                <label><input type="checkbox" checked disabled> Personalized Service</label>
+                <label><input type="checkbox" checked disabled> Seamless Travel</label>
+                <label><input type="checkbox" checked disabled> Passionate Guides</label>
+                <i><p>"Join us at Bharat Sanchar, where every tour is a voyage, every moment is a discovery, and every traveler is a cherished part of our story."<i></p>
+                <a href="terms.html" target="_blank">TERMS & CONDITIONS</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--=========Services===============-->
+<!-- <section class="services" id="services">
+    <div class="service-item">
+        <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293634/tour-guide_onzla9.png">
+        <h2>8000+ Our Local Guides</h2>
+    </div>
+    <div class="service-item">
+        <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293738/reliability_jbpn4g.png">
+        <h2>100% Trusted Tour Agency</h2>
+    </div>
+    <div class="service-item">
+        <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293635/experience_a3fduk.png">
+        <h2>28+ Years of Travel Experience</h2>
+    </div>
+    <div class="service-item">
+        <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293634/feedback_s8z7d9.png">
+        <h2>98% Our Travelers are Happy</h2>
+    </div>
+</section> -->
+<section class="services" id="services">
+    <div class="container">
+        <h2 class="text-center"><i class="fa-solid fa-globe" style="margin-right: 5px;"></i>Services</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-between service-two-cards">
+            <div class="col-12 col-md-3">
+                <div class="card  service-item ">
+                    <img class="card-img-top img-fluid" src="./images/tour-guide.png" alt="tour-guide image from icon8">
+                    <div class="card-body">
+                        <h5 class="card-title">8000+ Our Local Guides<br><br><br></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card  service-item">
+                    <img class="card-img-top img-fluid" src="./images/trust.png">
+                    <div class="card-body">
+                        <h5 class="card-title">100% Trusted Tour Agency<br><br><br></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card  service-item">
+                    <img class="card-img-top img-fluid" src="./images/experience.png">
+                    <div class="card-body">
+                        <h5 class="card-title">28+ Years of Travel Experience<br><br></h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Add the fourth card here -->
+            <div class="col-12 col-md-3">
+                <div class="card  service-item">
+                    <img class="card-img-top img-fluid" src="./images/happy.png">
+                    <div class="card-body">
+                        <h5 class="card-title">98% Our Travelers are Happy<br><br></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--==============Places===================-->
+<section class="places" id="packages">
+    <div class="places-text">
+        <small>FEATURED TOURS PACKAGES</small>
+        <h2><i class="fa-solid fa-location-dot" style="margin-right: 5px;"></i>Favourite Places</h2>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="./images/site-1.jpg" alt="Chamoli,Uttarakhand" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="text">
+                <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                <h2>The Valley of Flowers</h2>
+                <p class="cost">₹ 3000 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">&#128339; 4 Days</p>
+                    <p class="location">&#9992;Uttarakhand </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="./images/site-2.jpg" alt="Shillong,Meghalaya" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="text">
+                <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                <h2>Krang Suri Falls</h2>
+                <p class="cost">₹ 5000 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">&#128339; 6 Days</p>
+                    <p class="location">&#9992; Meghalaya</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="./images/site-3.jpg" alt="Coorg,Karnataka" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="text">
+                <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                <h2>Coorg</h2>
+                <p class="cost">₹ 4000 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">&#128339; 6 Days</p>
+                    <p class="location">&#9992; Karnataka</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="./images/site-4.jpg" alt="Tawang" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="text">
+                <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                <h2>Tawang</h2>
+                <p class="cost">₹ 6500/ Per Person</p>
+                <div class="card-box">
+                    <p class="time">&#128339; 8 Days</p>
+                    <p class="location">&#9992;Arunachal Pradesh</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="./images/site-6.jpeg" alt="Munnar" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="text">
+                <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                <h2>Munnar</h2>
+                <p class="cost">₹ 8000 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">&#128339; 6 Days</p>
+                    <p class="location">&#9992;Kerala</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="./images/site-5.jpeg" alt="Gulmarg" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="text">
+                <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                <h2>Gulmarg</h2>
+                <p class="cost">₹ 8000 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">&#128339; 6 Days</p>
+                    <p class="location">&#9992;Jammu & Kashmir</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- ****************End of places***************** -->
+
+
+<!--===========Testimonials=================-->
+<section class="reviews" id="testimonials">
+    <div class="container">
+        <h2 class="text-center" style="margin-top: 3em;"><i class="fa-solid fa-comment" style="margin-right: 5px;"></i>What our Guest Say</h2>
+        <div class="reviews-body">
+        <div class="row">
+            <!--review-1-->
+            <div class="col-12 col-md-4 review-box">
+                <div class="card review-card " style="width: 18rem;">
+                <img src="./images/review-1.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    "Bharat Sanchar ensured an unforgettable 
+                    journey—highly recommended for enriching and seamless travel."
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--review-2-->
+            <div class="col-12 col-md-4 review-box">
+                <div class="card review-card" style="width: 18rem;">
+                <img src="./images/review-2.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    "Bharat Sanchar delivered an outstanding travel experience, 
+                    seamlessly blending adventure with unforgettable memories."
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--review-3-->
+            <div class="col-12 col-md-4 review-box">
+                <div class="card review-card " style="width: 18rem;">
+                <img src="./images/review-3.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    "Bharat Sanchar crafted a magical honeymoon, 
+                    offering a perfect blend of romance, adventure, seamless travel."
+                  </p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+</section>
+<!--==================END Testimonials section-->
+
+<!--================ Start Contact Area =================-->
+<section class="contact_area" id="contact">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="main_title contact_title text-center">
+                    <h2><i class="fa fa-envelope"></i> Get in touch</h2>
+                    <p>Come, explore India with us!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center box-contact">
+            <div class="col-md-5 contact-left">
+                <img class="img-fluid" src="./images/contact-left-2.jpg" alt="India heritage map">
+            </div>
+            <div class="col-md-4">
+                <form action="" class="form-contact">
+                    <input type="name" placeholder="Name" >
+                    <input type="email" placeholder="Email" >
+                    <input type="name" placeholder="Phone" >
+                    <textarea name="" id="" cols="20" rows="5" placeholder="message"></textarea>
+                    <button class="primary_btn"><span>Send Message</span></button>
+                    <div class="social-icons d-flex justify-content-center align-items-center">
+                        <a href="mailto:athulakhil28@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>
+                        <a href="https://github.com/athul-2003" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                        <a href="https://twitter.com/athulkrishnan_h" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/h-athulkrishnan/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================ End Contact Area =================-->
+
+
+
+
+
+<!--================ Footer  Area =================-->
+
+<footer class="footer_area">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <div class="footer_top flex-column text-center">
+            <div class="footer_logo">
+                <figure>
+                    <img class="img-fluid footer-logo-image" src="./images/main-logo.png" alt="logo">
+                    <figcaption class="caption">"Discover the Rhythms of India"</figcaption>
+                </figure>
+              <h4>FOLLOW US</h4>
+            </div>
+            <div class="footer_social">
+              <a href="https://www.linkedin.com/in/h-athulkrishnan/" target="_blank"><i class="fa fa-linkedin fa-xl"></i></a>
+              <a href="https://twitter.com/athulkrishnan_h" target="_blank"><i class="fa fa-twitter fa-xl"></i></a>
+              <a href="https://github.com/athul-2003" target="_blank"><i class="fa fa-github fa-xl"></i></a>
+              <a href="#"><i class="fa fa-instagram fa-xl"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row footer_bottom justify-content-center text-center">
+        <p class="col-lg-8 col-sm-12 footer-text">
+          &copy;2023 All rights reserved | <a href="https://www.linkedin.com/in/h-athulkrishnan/" target="_blank" style="text-decoration: none;color: black;"><strong>@athul2003</strong></a> </p>
+      </div>
+    </div>
+  </footer>
+  <!--================End Footer Area =================-->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
